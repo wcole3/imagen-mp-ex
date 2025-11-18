@@ -23,6 +23,7 @@
             <version>0.9.0</version>
         </dependency>
 
+        <!-- Add another module that triggers the issue -->
         <dependency>
             <groupId>org.eclipse.imagen</groupId>
             <artifactId>affine</artifactId>
