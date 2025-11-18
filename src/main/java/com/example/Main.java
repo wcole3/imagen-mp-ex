@@ -2,12 +2,9 @@ package com.example;
 
 import org.eclipse.imagen.ImageN;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static void main() {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
+        // rename module-info.java to module-info.unjava to observe successful ImageN init
         IO.println("Example ImageN initialization issue");
         IO.println(ImageN.getBuildVersion());
     }
